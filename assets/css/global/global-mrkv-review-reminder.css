@@ -1,0 +1,134 @@
+.mrkv_review_reminder__send_old img{
+	width: 15px;
+}
+.mrkv_review_reminder__send_old .mrkv_review_reminder__order__send_manually,
+.mrkv_review_reminder__order_cron .mrkv_review_reminder__order__send_manually,
+.mrkv_review_reminder__order__delete_manually{
+    font-size: 10px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    padding: 10px 6px;
+    color: #000;
+    width: fit-content;
+    cursor: pointer;
+}
+.mrkv_review_reminder__send_old .mrkv_review_reminder__order__send_manually:hover, .mrkv_review_reminder__send_old .mrkv_review_reminder__order__send_manually:focus,
+.mrkv_review_reminder__order_cron .mrkv_review_reminder__order__send_manually:hover, .mrkv_review_reminder__order_cron .mrkv_review_reminder__order__send_manually:focus,
+.mrkv_review_reminder__order__delete_manually:hover, .mrkv_review_reminder__order__delete_manually:focus,
+.mrkv_review_reminder__orders__data .mrkv_review_reminder__order__send_manually:hover, .mrkv_review_reminder__orders__data .mrkv_review_reminder__order__send_manually:focus{
+    box-shadow: 0 0 0 1px #fff, 0 0 0 3px #ed6230;
+}
+.mrkv_review_reminder__order .mrkv_review_reminder__order__send_manually, .mrkv_review_reminder__order__delete_manually{
+    border: 1px solid #c5c5c5;
+    cursor: pointer;
+    font-size: 14px;
+    gap: 10px;
+    margin-top: 12px;
+    padding: 6px 20px;
+}
+.mrkv_review_reminder__order .mrkv_review_reminder__order__send_manually img, .mrkv_review_reminder__order__delete_manually img{
+    width: 20px;
+}
+#mrkv_review_reminder_data_box h3{
+    font-weight: bold;
+    padding-left: 0;
+    font-size: 13px;
+}
+.mrkv_review_reminder__order__notice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 10px;
+    border: 1px solid #bfb3a8;
+    padding: 10px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.mrkv_review_reminder__orders.mrkv_review_reminder__order__notice{
+    font-size: 10px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    padding: 10px 6px;
+    color: #000;
+    width: fit-content;
+    cursor: pointer;
+}
+#the-list .mrkv_review_reminder__order__notice{
+    font-size: 10px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    padding: 10px 6px;
+    color: #000;
+    width: fit-content;
+    cursor: pointer;
+}
+#the-list .mrkv_review_reminder__order__notice img{
+    width: 15px;
+}
+.mrkv_review_reminder__orders_cron{
+    font-size: 10px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    padding: 10px 6px;
+    color: #000;
+    width: fit-content;
+    cursor: pointer;
+}
+.mrkv_review_reminder__orders_cron .mrkv_review_reminder__orders__data{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.mrkv_review_reminder__orders_cron .mrkv_review_reminder__order__send_manually{
+    font-size: 10px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    padding: 10px 6px;
+    color: #000;
+    width: fit-content;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.mrkv_review_reminder__orders_cron .mrkv_review_reminder__order__send_manually img{
+    width: 15px;
+}
+.mrkv_review_reminder__order_cron__inner{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mrkv_review_reminder__order_cron__inner > img{
+    background-color: #ed6230;
+    border-radius: 10px;
+    padding: 7px;
+}
+#mrkv_review_reminder_data_box .inside > b{
+    color: #000;
+    display: block;
+}
