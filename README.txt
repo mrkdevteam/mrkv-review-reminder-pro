@@ -1,11 +1,18 @@
-=== Morkva Review Reminder ===
+=== Morkva Review Reminder PRO ===
 Contributors: bandido, dpmine
 Tags: review, reminder, comment
 Requires at least: 5.0
-Tested up to: 6.6
+Tested up to: 6.8
 Requires PHP: 7.0
-Stable tag: 1.0.0
+Stable tag: 1.0.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+= 1.0.2 =
+* [fix] fixed order_id fatal error
+
+= 1.0.1 =
+* WP 6.8 - сумісний
+* WooCommerce 9.8 - сумісний
 
 1.0.0 - first release of the plugin

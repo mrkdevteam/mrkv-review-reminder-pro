@@ -1,7 +1,7 @@
 <?php
 # Get plugin data
 require_once ABSPATH . 'wp-admin/includes/plugin.php';
-$plugData = get_plugin_data(MRKV_REVIEW_REMINDER_PLUGIN_FILE);
+$plugData = get_plugin_data(MRKV_REVIEW_REMINDER_PLUGIN_FILE,false, false);
 
 # Constans 
 
