@@ -37,7 +37,7 @@ if (!class_exists('MRKV_REVIEW_REMINDER_ADMIN_ASSETS'))
 				</div>
 			</div>';
 
-	    	if(($pagenow == 'admin.php' || $pagenow == 'post.php') && ('shop_order' === $typenow || (isset($screen->id) && $screen->id == 'woocommerce_page_wc-orders')) || (isset($screen->id) && $screen->id == 'woocommerce_page_shop_order'))
+	    	if(($pagenow == 'edit.php' || $pagenow == 'admin.php' || $pagenow == 'post.php') && ('shop_order' === $typenow || (isset($screen->id) && $screen->id == 'woocommerce_page_wc-orders')) || (isset($screen->id) && $screen->id == 'woocommerce_page_shop_order'))
 	    	{
 	    		wp_enqueue_style('global-mrkv-review-reminder', MRKV_REVIEW_REMINDER_ASSETS_URL . '/css/global/global-mrkv-review-reminder.css', array(), MRKV_REVIEW_REMINDER_PLUGIN_VERSION);
 	    		wp_register_script('admin-review-reminder-select2-js', MRKV_REVIEW_REMINDER_ASSETS_URL.'/js/global/select2.min.js', array('jquery'), MRKV_REVIEW_REMINDER_PLUGIN_VERSION, true);

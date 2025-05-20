@@ -3,7 +3,7 @@
  * Plugin Name: Morkva Review Reminder PRO
  * Plugin URI: https://morkva.co.ua/product-category/plugins/
  * Description: We send simple emails to remind you of your review
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: MORKVA
  * Text Domain: mrkv-review-reminder-pro
  * Domain Path: /i18n/
