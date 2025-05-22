@@ -109,7 +109,7 @@ if (!class_exists('MRKV_REVIEW_REMINDER_CRON'))
 					    }
 
 					    # Check date beetween
-					    if($$dateTime <= new DateTime())
+					    if($dateTime <= new DateTime())
 					    {
 					    	# Get reminder object
 							$reminder = new MRKV_REVIEW_REMINDER_SENDER($order);
