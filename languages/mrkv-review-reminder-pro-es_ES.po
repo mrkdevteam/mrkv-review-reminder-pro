@@ -1,0 +1,237 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_ES\n"
+"Language-Team: Spanish (Spain)\n"
+"PO-Revision-Date: 2025-05-26 10:10+0000\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:178
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:212
+msgid "Actions"
+msgstr "Acciones"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:155
+#: classes/woocommerce/mrkv-review-reminder-woo-orders.php:88
+#: classes/reminder/mrkv-review-reminder-sender.php:101
+#: classes/settings/admin/mrkv-review-reminder-admin-assets.php:36
+msgid "Already sent"
+msgstr "Ya enviado"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:33
+msgid "Basic"
+msgstr "Básico"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:112
+msgid "Basic settings"
+msgstr "Ajustes básicos"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:144
+msgid "Create a message that will be sent"
+msgstr "Crear un mensaje que será enviado"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:34
+#: templates/settings/template-mrkv-review-reminder-settings.php:194
+msgid "Customization"
+msgstr "Personalización"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:35
+msgid "Debug"
+msgstr "Depurar"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:220
+msgid "Debug Settings"
+msgstr "Ajustes de depuración"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:203
+msgid "Desktop CSS"
+msgstr "CSS para escritorio"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:258
+msgid "E-mail"
+msgstr "Correo electrónico"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:142
+msgid "Email configurations"
+msgstr "Configuraciones de correo electrónico"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:181
+msgid "Email header"
+msgstr "Encabezado del correo electrónico"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:153
+msgid "Email subject"
+msgstr "Asunto del correo electrónico"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:189
+msgid "Email text"
+msgstr "Texto del correo electrónico"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:225
+msgid "Enable log to order note"
+msgstr "Habilitar registro en la nota del pedido"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:173
+msgid "Enter email..."
+msgstr "Introducir correo electrónico..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:181
+msgid "Enter header..."
+msgstr "Introducir encabezado..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:203
+#: templates/settings/template-mrkv-review-reminder-settings.php:213
+msgid "Enter the css..."
+msgstr "Introduce el CSS..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:189
+msgid "Enter the email..."
+msgstr "Introducir el correo electrónico..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:163
+msgid "Enter the sender..."
+msgstr "Introducir el remitente..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:153
+msgid "Enter the subject..."
+msgstr "Introducir el asunto..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:11
+msgid "Global"
+msgstr "Global"
+
+#. URI of the plugin
+msgid "https://morkva.co.ua/product-category/plugins/"
+msgstr "https://morkva.co.ua/product-category/plugins/"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:213
+msgid "Mobile CSS"
+msgstr "CSS para móvil"
+
+#. Author of the plugin
+msgid "MORKVA"
+msgstr "MORKVA"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:85
+msgid "Morkva Review Reminder"
+msgstr "Recordatorio de reseñas Morkva"
+
+#. Name of the plugin
+msgid "Morkva Review Reminder PRO"
+msgstr "Morkva Review Reminder PRO"
+
+#: classes/settings/admin/mrkv-review-reminder-menu.php:37
+msgid "MRKV Review Reminder"
+msgstr "Recordatorio de reseñas MRKV"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:257
+#| msgid "Need help or customization?"
+msgid "Need help or customisation?"
+msgstr "¿Necesita ayuda o personalización?"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:201
+#: templates/settings/template-mrkv-review-reminder-settings.php:211
+msgid "Plain only css"
+msgstr "Solo CSS simple"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:187
+msgid "Plain text, no html"
+msgstr "Texto sin formato, sin HTML"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:137
+msgid "Product categories"
+msgstr "Categorías de productos"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:121
+msgid "Reminder interval, days"
+msgstr "Intervalo de recordatorio, días"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:204
+msgid "Remove reminder"
+msgstr "Eliminar recordatorio"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:173
+msgid "Reply-to (separated by comma)"
+msgstr "Responder a (separados por coma)"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:182
+msgid "Resend reminder"
+msgstr "Reenviar recordatorio"
+
+#: classes/reminder/mrkv-review-reminder-sender.php:66
+#: classes/reminder/mrkv-review-reminder-sender.php:111
+msgid "Review recently purchased products"
+msgstr "Revisar productos comprados recientemente"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-orders.php:39
+msgid "Review Reminder"
+msgstr "Recordatorio de reseña"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:248
+msgid "Save"
+msgstr "Guardar"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:194
+#: classes/woocommerce/mrkv-review-reminder-woo-orders.php:100
+msgid "Scheduled on:"
+msgstr "Programado para:"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:238
+msgid "Send"
+msgstr "Enviar"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:231
+msgid ""
+"Send a test email to the specified email. The product will be taken the last "
+"one published"
+msgstr ""
+"Enviar un correo electrónico de prueba al correo electrónico especificado. "
+"Se tomará el último producto publicado"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:200
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:216
+#: classes/woocommerce/mrkv-review-reminder-woo-orders.php:104
+#: classes/woocommerce/mrkv-review-reminder-woo-orders.php:118
+#: classes/reminder/mrkv-review-reminder-sender.php:42
+msgid "Send now"
+msgstr "Enviar ahora"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:163
+msgid "Sender name"
+msgstr "Nombre del remitente"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:242
+msgid "Sent"
+msgstr "Enviado"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:28
+msgid "Settings"
+msgstr "Ajustes"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:151
+msgid "Shortcode firstname: [mrkv-firstname]"
+msgstr "Shortcode nombre: [mrkv-firstname]"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:256
+msgid "Support"
+msgstr "Soporte"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:234
+msgid "Test Email address"
+msgstr "Dirección de correo electrónico de prueba"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:229
+msgid "Test letter"
+msgstr "Carta de prueba"
+
+#. Description of the plugin
+msgid "We send simple emails to remind you of your review"
+msgstr "Enviamos correos simples para recordarte tu reseña"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:137
+msgid ""
+"When selected, only orders with related categories products will be processed"
+msgstr ""
+"Cuando está seleccionado, solo se procesan pedidos con productos de las "
+"categorías relacionadas"

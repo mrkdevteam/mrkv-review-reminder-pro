@@ -1,0 +1,237 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: uk_UA\n"
+"Language-Team: Ukrainian (Ukraine)\n"
+"PO-Revision-Date: 2025-05-26 10:14+0000\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:178
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:212
+msgid "Actions"
+msgstr "Дії"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:155
+#: classes/woocommerce/mrkv-review-reminder-woo-orders.php:88
+#: classes/reminder/mrkv-review-reminder-sender.php:101
+#: classes/settings/admin/mrkv-review-reminder-admin-assets.php:36
+msgid "Already sent"
+msgstr "Вже надіслано"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:33
+msgid "Basic"
+msgstr "Основні"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:112
+msgid "Basic settings"
+msgstr "Основні налаштування"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:144
+msgid "Create a message that will be sent"
+msgstr "Створити повідомлення, яке буде надіслано"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:34
+#: templates/settings/template-mrkv-review-reminder-settings.php:194
+msgid "Customization"
+msgstr "Налаштування"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:35
+msgid "Debug"
+msgstr "Відлагодження"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:220
+msgid "Debug Settings"
+msgstr "Налаштування відлагодження"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:203
+msgid "Desktop CSS"
+msgstr "CSS для десктопу"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:258
+msgid "E-mail"
+msgstr "Електронна пошта"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:142
+msgid "Email configurations"
+msgstr "Налаштування електронної пошти"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:181
+msgid "Email header"
+msgstr "Заголовок листа"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:153
+msgid "Email subject"
+msgstr "Тема листа"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:189
+msgid "Email text"
+msgstr "Текст листа"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:225
+msgid "Enable log to order note"
+msgstr "Увімкнути журнал у примітці до замовлення"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:173
+msgid "Enter email..."
+msgstr "Введіть електронну пошту..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:181
+msgid "Enter header..."
+msgstr "Введіть заголовок..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:203
+#: templates/settings/template-mrkv-review-reminder-settings.php:213
+msgid "Enter the css..."
+msgstr "Введіть CSS..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:189
+msgid "Enter the email..."
+msgstr "Введіть електронну пошту..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:163
+msgid "Enter the sender..."
+msgstr "Введіть відправника..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:153
+msgid "Enter the subject..."
+msgstr "Введіть тему..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:11
+msgid "Global"
+msgstr "Глобальні"
+
+#. URI of the plugin
+msgid "https://morkva.co.ua/product-category/plugins/"
+msgstr "https://morkva.co.ua/product-category/plugins/"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:213
+msgid "Mobile CSS"
+msgstr "CSS для мобільних пристроїв"
+
+#. Author of the plugin
+msgid "MORKVA"
+msgstr "MORKVA"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:85
+msgid "Morkva Review Reminder"
+msgstr "Нагадування про відгук Morkva"
+
+#. Name of the plugin
+msgid "Morkva Review Reminder PRO"
+msgstr "Morkva Review Reminder PRO"
+
+#: classes/settings/admin/mrkv-review-reminder-menu.php:37
+msgid "MRKV Review Reminder"
+msgstr "MRKV Нагадування про відгук"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:257
+#| msgid "Need help or customization?"
+msgid "Need help or customisation?"
+msgstr "Потрібна допомога чи доопрацювання?"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:201
+#: templates/settings/template-mrkv-review-reminder-settings.php:211
+msgid "Plain only css"
+msgstr "Лише простий CSS"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:187
+msgid "Plain text, no html"
+msgstr "Звичайний текст, без HTML"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:137
+msgid "Product categories"
+msgstr "Категорії товарів"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:121
+msgid "Reminder interval, days"
+msgstr "Інтервал нагадування, днів"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:204
+msgid "Remove reminder"
+msgstr "Видалити нагадування"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:173
+msgid "Reply-to (separated by comma)"
+msgstr "Відповісти на (розділені комою)"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:182
+msgid "Resend reminder"
+msgstr "Надіслати нагадування повторно"
+
+#: classes/reminder/mrkv-review-reminder-sender.php:66
+#: classes/reminder/mrkv-review-reminder-sender.php:111
+msgid "Review recently purchased products"
+msgstr "Залиште відгук про нещодавно придбані товари"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-orders.php:39
+msgid "Review Reminder"
+msgstr "Нагадування про відгук"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:248
+msgid "Save"
+msgstr "Зберегти"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:194
+#: classes/woocommerce/mrkv-review-reminder-woo-orders.php:100
+msgid "Scheduled on:"
+msgstr "Заплановано на:"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:238
+msgid "Send"
+msgstr "Надіслати"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:231
+msgid ""
+"Send a test email to the specified email. The product will be taken the last "
+"one published"
+msgstr ""
+"Надіслати тестовий лист на вказану електронну пошту. Товар буде взято "
+"останній опублікований"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:200
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:216
+#: classes/woocommerce/mrkv-review-reminder-woo-orders.php:104
+#: classes/woocommerce/mrkv-review-reminder-woo-orders.php:118
+#: classes/reminder/mrkv-review-reminder-sender.php:42
+msgid "Send now"
+msgstr "Надіслати зараз"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:163
+msgid "Sender name"
+msgstr "Ім'я відправника"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:242
+msgid "Sent"
+msgstr "Надіслано"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:28
+msgid "Settings"
+msgstr "Налаштування"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:151
+msgid "Shortcode firstname: [mrkv-firstname]"
+msgstr "Шорткод ім'я: [mrkv-firstname]"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:256
+msgid "Support"
+msgstr "Підтримка"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:234
+msgid "Test Email address"
+msgstr "Тестова адреса електронної пошти"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:229
+msgid "Test letter"
+msgstr "Тестовий лист"
+
+#. Description of the plugin
+msgid "We send simple emails to remind you of your review"
+msgstr "Ми надсилаємо прості електронні листи, щоб нагадати вам про ваш відгук"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:137
+msgid ""
+"When selected, only orders with related categories products will be processed"
+msgstr ""
+"Коли вибрано, обробляються лише замовлення з товарами відповідних категорій"

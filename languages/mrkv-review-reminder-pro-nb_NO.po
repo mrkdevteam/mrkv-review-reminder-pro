@@ -1,0 +1,236 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nb_NO\n"
+"Language-Team: Norwegian (Bokmål)\n"
+"PO-Revision-Date: 2025-05-26 09:57+0000\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:178
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:212
+msgid "Actions"
+msgstr "Handlinger"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:155
+#: classes/woocommerce/mrkv-review-reminder-woo-orders.php:88
+#: classes/reminder/mrkv-review-reminder-sender.php:101
+#: classes/settings/admin/mrkv-review-reminder-admin-assets.php:36
+msgid "Already sent"
+msgstr "Allerede sendt"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:33
+msgid "Basic"
+msgstr "Grunnleggende"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:112
+msgid "Basic settings"
+msgstr "Grunnleggende innstillinger"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:144
+msgid "Create a message that will be sent"
+msgstr "Opprett en melding som skal sendes"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:34
+#: templates/settings/template-mrkv-review-reminder-settings.php:194
+msgid "Customization"
+msgstr "Tilpasning"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:35
+msgid "Debug"
+msgstr "Feilsøking"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:220
+msgid "Debug Settings"
+msgstr "Feilsøkingsinnstillinger"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:203
+msgid "Desktop CSS"
+msgstr "CSS for skrivebord"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:258
+msgid "E-mail"
+msgstr "E-post"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:142
+msgid "Email configurations"
+msgstr "E-postkonfigurasjoner"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:181
+msgid "Email header"
+msgstr "E-posthode"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:153
+msgid "Email subject"
+msgstr "E-postemne"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:189
+msgid "Email text"
+msgstr "E-posttekst"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:225
+msgid "Enable log to order note"
+msgstr "Aktiver logg til ordremerknad"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:173
+msgid "Enter email..."
+msgstr "Skriv inn e-post..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:181
+msgid "Enter header..."
+msgstr "Skriv inn hode..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:203
+#: templates/settings/template-mrkv-review-reminder-settings.php:213
+msgid "Enter the css..."
+msgstr "Skriv inn CSS..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:189
+msgid "Enter the email..."
+msgstr "Skriv inn e-postadressen..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:163
+msgid "Enter the sender..."
+msgstr "Skriv inn avsenderen..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:153
+msgid "Enter the subject..."
+msgstr "Skriv inn emnet..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:11
+msgid "Global"
+msgstr "Global"
+
+#. URI of the plugin
+msgid "https://morkva.co.ua/product-category/plugins/"
+msgstr "https://morkva.co.ua/product-category/plugins/"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:213
+msgid "Mobile CSS"
+msgstr "CSS for mobil"
+
+#. Author of the plugin
+msgid "MORKVA"
+msgstr "MORKVA"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:85
+msgid "Morkva Review Reminder"
+msgstr "Morkva Anmeldelsespåminnelse"
+
+#. Name of the plugin
+msgid "Morkva Review Reminder PRO"
+msgstr "Morkva Review Reminder PRO"
+
+#: classes/settings/admin/mrkv-review-reminder-menu.php:37
+msgid "MRKV Review Reminder"
+msgstr "MRKV Anmeldelsespåminnelse"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:257
+#| msgid "Need help or customization?"
+msgid "Need help or customisation?"
+msgstr "Trenger du hjelp eller tilpasning?"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:201
+#: templates/settings/template-mrkv-review-reminder-settings.php:211
+msgid "Plain only css"
+msgstr "Kun enkel CSS"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:187
+msgid "Plain text, no html"
+msgstr "Ren tekst, ingen HTML"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:137
+msgid "Product categories"
+msgstr "Produktkategorier"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:121
+msgid "Reminder interval, days"
+msgstr "Påminnelsesintervall, dager"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:204
+msgid "Remove reminder"
+msgstr "Fjern påminnelse"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:173
+msgid "Reply-to (separated by comma)"
+msgstr "Svar til (adskilt med komma)"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:182
+msgid "Resend reminder"
+msgstr "Send påminnelse på nytt"
+
+#: classes/reminder/mrkv-review-reminder-sender.php:66
+#: classes/reminder/mrkv-review-reminder-sender.php:111
+msgid "Review recently purchased products"
+msgstr "Anmeld nylig kjøpte produkter"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-orders.php:39
+msgid "Review Reminder"
+msgstr "Anmeldelsespåminnelse"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:248
+msgid "Save"
+msgstr "Lagre"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:194
+#: classes/woocommerce/mrkv-review-reminder-woo-orders.php:100
+msgid "Scheduled on:"
+msgstr "Planlagt til:"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:238
+msgid "Send"
+msgstr "Send"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:231
+msgid ""
+"Send a test email to the specified email. The product will be taken the last "
+"one published"
+msgstr ""
+"Send en test-e-post til den angitte e-postadressen. Produktet vil være det "
+"sist publiserte"
+
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:200
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:216
+#: classes/woocommerce/mrkv-review-reminder-woo-orders.php:104
+#: classes/woocommerce/mrkv-review-reminder-woo-orders.php:118
+#: classes/reminder/mrkv-review-reminder-sender.php:42
+msgid "Send now"
+msgstr "Send nå"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:163
+msgid "Sender name"
+msgstr "Avsenders navn"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:242
+msgid "Sent"
+msgstr "Sendt"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:28
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:151
+msgid "Shortcode firstname: [mrkv-firstname]"
+msgstr "Kortkode fornavn: [mrkv-firstname]"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:256
+msgid "Support"
+msgstr "Støtte"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:234
+msgid "Test Email address"
+msgstr "Test e-postadresse"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:229
+msgid "Test letter"
+msgstr "Testbrev"
+
+#. Description of the plugin
+msgid "We send simple emails to remind you of your review"
+msgstr "Vi sender enkle e-poster for å minne deg på din anmeldelse"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:137
+msgid ""
+"When selected, only orders with related categories products will be processed"
+msgstr ""
+"Når valgt, behandles kun bestillinger med produkter fra relaterte kategorier"
