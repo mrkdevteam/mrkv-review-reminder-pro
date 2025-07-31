@@ -4,9 +4,12 @@ Tags: review, reminder, comment
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.0
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+= 1.0.7 =
+* [new] change email template
 
 = 1.0.6 =
 * [new] added multilingual support

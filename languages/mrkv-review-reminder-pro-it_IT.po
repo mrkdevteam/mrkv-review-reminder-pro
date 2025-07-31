@@ -4,7 +4,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: it_IT\n"
 "Language-Team: Italian\n"
-"PO-Revision-Date: 2025-05-26 09:56+0000\n"
+"PO-Revision-Date: 2025-07-31 06:39+0000\n"
 "X-Generator: Loco https://localise.biz/"
 
 #: classes/woocommerce/mrkv-review-reminder-woo-order.php:178
@@ -27,12 +27,16 @@ msgstr "Base"
 msgid "Basic settings"
 msgstr "Impostazioni di base"
 
+#: templates/settings/template-mrkv-review-reminder-settings.php:185
+msgid "Button text (Default: Leave review)"
+msgstr "Testo del pulsante (Predefinito: Lascia una recensione)"
+
 #: templates/settings/template-mrkv-review-reminder-settings.php:144
 msgid "Create a message that will be sent"
 msgstr "Crea un messaggio da inviare"
 
 #: templates/settings/template-mrkv-review-reminder-settings.php:34
-#: templates/settings/template-mrkv-review-reminder-settings.php:194
+#: templates/settings/template-mrkv-review-reminder-settings.php:208
 msgid "Customization"
 msgstr "Personalizzazione"
 
@@ -40,15 +44,15 @@ msgstr "Personalizzazione"
 msgid "Debug"
 msgstr "Debug"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:220
+#: templates/settings/template-mrkv-review-reminder-settings.php:234
 msgid "Debug Settings"
 msgstr "Impostazioni di debug"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:203
+#: templates/settings/template-mrkv-review-reminder-settings.php:217
 msgid "Desktop CSS"
 msgstr "CSS per desktop"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:258
+#: templates/settings/template-mrkv-review-reminder-settings.php:272
 msgid "E-mail"
 msgstr "E-mail"
 
@@ -56,7 +60,7 @@ msgstr "E-mail"
 msgid "Email configurations"
 msgstr "Configurazioni e-mail"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:181
+#: templates/settings/template-mrkv-review-reminder-settings.php:195
 msgid "Email header"
 msgstr "Intestazione e-mail"
 
@@ -64,28 +68,32 @@ msgstr "Intestazione e-mail"
 msgid "Email subject"
 msgstr "Oggetto e-mail"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:189
+#: templates/settings/template-mrkv-review-reminder-settings.php:203
 msgid "Email text"
 msgstr "Testo e-mail"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:225
+#: templates/settings/template-mrkv-review-reminder-settings.php:239
 msgid "Enable log to order note"
 msgstr "Abilita log alla nota d'ordine"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:173
+#: templates/settings/template-mrkv-review-reminder-settings.php:175
 msgid "Enter email..."
 msgstr "Inserisci e-mail..."
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:181
+#: templates/settings/template-mrkv-review-reminder-settings.php:195
 msgid "Enter header..."
 msgstr "Inserisci intestazione..."
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:203
-#: templates/settings/template-mrkv-review-reminder-settings.php:213
+#: templates/settings/template-mrkv-review-reminder-settings.php:185
+msgid "Enter text..."
+msgstr "Inserisci testo..."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:217
+#: templates/settings/template-mrkv-review-reminder-settings.php:227
 msgid "Enter the css..."
 msgstr "Inserisci il CSS..."
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:189
+#: templates/settings/template-mrkv-review-reminder-settings.php:203
 msgid "Enter the email..."
 msgstr "Inserisci l'e-mail..."
 
@@ -105,7 +113,11 @@ msgstr "Globale"
 msgid "https://morkva.co.ua/product-category/plugins/"
 msgstr "https://morkva.co.ua/product-category/plugins/"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:213
+#: classes/reminder/mrkv-review-reminder-sender.php:211
+msgid "Leave review"
+msgstr "Lascia una recensione"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:227
 msgid "Mobile CSS"
 msgstr "CSS per dispositivi mobili"
 
@@ -125,17 +137,17 @@ msgstr "Morkva Review Reminder PRO"
 msgid "MRKV Review Reminder"
 msgstr "MRKV Promemoria Recensione"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:257
+#: templates/settings/template-mrkv-review-reminder-settings.php:271
 #| msgid "Need help or customization?"
 msgid "Need help or customisation?"
 msgstr "Hai bisogno di aiuto o personalizzazione?"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:201
-#: templates/settings/template-mrkv-review-reminder-settings.php:211
+#: templates/settings/template-mrkv-review-reminder-settings.php:215
+#: templates/settings/template-mrkv-review-reminder-settings.php:225
 msgid "Plain only css"
 msgstr "Solo CSS semplice"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:187
+#: templates/settings/template-mrkv-review-reminder-settings.php:201
 msgid "Plain text, no html"
 msgstr "Testo semplice, senza HTML"
 
@@ -151,7 +163,7 @@ msgstr "Intervallo promemoria, giorni"
 msgid "Remove reminder"
 msgstr "Rimuovi promemoria"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:173
+#: templates/settings/template-mrkv-review-reminder-settings.php:175
 msgid "Reply-to (separated by comma)"
 msgstr "Rispondi a (separati da virgola)"
 
@@ -168,7 +180,7 @@ msgstr "Rivedi i prodotti acquistati di recente"
 msgid "Review Reminder"
 msgstr "Promemoria Recensione"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:248
+#: templates/settings/template-mrkv-review-reminder-settings.php:262
 msgid "Save"
 msgstr "Salva"
 
@@ -177,11 +189,11 @@ msgstr "Salva"
 msgid "Scheduled on:"
 msgstr "Pianificato per:"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:238
+#: templates/settings/template-mrkv-review-reminder-settings.php:252
 msgid "Send"
 msgstr "Invia"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:231
+#: templates/settings/template-mrkv-review-reminder-settings.php:245
 msgid ""
 "Send a test email to the specified email. The product will be taken the last "
 "one published"
@@ -201,7 +213,7 @@ msgstr "Invia ora"
 msgid "Sender name"
 msgstr "Nome del mittente"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:242
+#: templates/settings/template-mrkv-review-reminder-settings.php:256
 msgid "Sent"
 msgstr "Inviato"
 
@@ -213,17 +225,21 @@ msgstr "Impostazioni"
 msgid "Shortcode firstname: [mrkv-firstname]"
 msgstr "Shortcode nome: [mrkv-firstname]"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:256
+#: templates/settings/template-mrkv-review-reminder-settings.php:270
 msgid "Support"
 msgstr "Supporto"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:234
+#: templates/settings/template-mrkv-review-reminder-settings.php:248
 msgid "Test Email address"
 msgstr "Indirizzo e-mail di prova"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:229
+#: templates/settings/template-mrkv-review-reminder-settings.php:243
 msgid "Test letter"
 msgstr "Lettera di prova"
+
+#: mrkv-review-reminder-pro.php:80
+msgid "View details"
+msgstr "Visualizza dettagli"
 
 #. Description of the plugin
 msgid "We send simple emails to remind you of your review"

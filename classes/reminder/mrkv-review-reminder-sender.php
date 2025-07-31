@@ -208,6 +208,8 @@ if (!class_exists('MRKV_REVIEW_REMINDER_SENDER'))
 			# Create default empty
 			$products_html = '';
 
+			$text_leave_comment = (isset($this->mrkv_review_reminder['email']['btn_text']) && $this->mrkv_review_reminder['email']['btn_text']) ? $this->mrkv_review_reminder['email']['btn_text'] : __( 'Leave review', 'mrkv-review-reminder-pro' );
+
 			# Check test mode sending
 			if($is_test)
 			{
@@ -241,6 +243,11 @@ if (!class_exists('MRKV_REVIEW_REMINDER_SENDER'))
 							</td>
 							<td style="padding: 10px; vertical-align: middle;">
 								<a style="text-decoration: none;" href="' . get_permalink($last_product->get_id()) . '">' . $last_product->get_name() . '</a>
+								<br>
+				                <a href="' . get_permalink($last_product->get_id()) . '#reviews" 
+				                   style="display: inline-block; margin-top: 6px; color: #000; font-size: 13px;">
+				                   ' . $text_leave_comment . '
+				                </a>
 							</td>
 						</tr>';
 			    	}
@@ -287,6 +294,11 @@ if (!class_exists('MRKV_REVIEW_REMINDER_SENDER'))
 									</td>
 									<td style="padding: 10px; vertical-align: middle;">
 										<a style="text-decoration: none;" href="' . get_permalink($variation->get_id()) . '">' . $variation->get_name() . '</a>
+										<br>
+					                    <a href="' . get_permalink($variation->get_id()) . '#reviews" 
+					                       style="display: inline-block; margin-top: 6px; font-size: 13px;">
+					                       ' . $text_leave_comment . '
+					                    </a>
 									</td>
 								</tr>';
 							}
@@ -305,6 +317,11 @@ if (!class_exists('MRKV_REVIEW_REMINDER_SENDER'))
 								</td>
 								<td style="padding: 10px; vertical-align: middle;">
 									<a style="text-decoration: none;" href="' . get_permalink($product->get_id()) . '">' . $product->get_name() . '</a>
+									<br>
+					                <a href="' . get_permalink($product->get_id()) . '#reviews" 
+					                   style="display: inline-block; margin-top: 6px; font-size: 13px;">
+					                   ' . $text_leave_comment . '
+					                </a>
 								</td>
 							</tr>';
 						}

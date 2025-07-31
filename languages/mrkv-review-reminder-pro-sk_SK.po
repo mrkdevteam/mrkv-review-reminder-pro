@@ -4,7 +4,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : ((n>=2 && n<=4) ? 1 : 2);\n"
 "Language: sk_SK\n"
 "Language-Team: Slovak\n"
-"PO-Revision-Date: 2025-05-26 10:09+0000\n"
+"PO-Revision-Date: 2025-07-31 06:45+0000\n"
 "X-Generator: Loco https://localise.biz/"
 
 #: classes/woocommerce/mrkv-review-reminder-woo-order.php:178
@@ -27,12 +27,16 @@ msgstr "Základné"
 msgid "Basic settings"
 msgstr "Základné nastavenia"
 
+#: templates/settings/template-mrkv-review-reminder-settings.php:185
+msgid "Button text (Default: Leave review)"
+msgstr "Text tlačidla (Predvolené: Zanechať recenziu)"
+
 #: templates/settings/template-mrkv-review-reminder-settings.php:144
 msgid "Create a message that will be sent"
 msgstr "Vytvoriť správu, ktorá bude odoslaná"
 
 #: templates/settings/template-mrkv-review-reminder-settings.php:34
-#: templates/settings/template-mrkv-review-reminder-settings.php:194
+#: templates/settings/template-mrkv-review-reminder-settings.php:208
 msgid "Customization"
 msgstr "Prispôsobenie"
 
@@ -40,15 +44,15 @@ msgstr "Prispôsobenie"
 msgid "Debug"
 msgstr "Ladenie"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:220
+#: templates/settings/template-mrkv-review-reminder-settings.php:234
 msgid "Debug Settings"
 msgstr "Nastavenia ladenia"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:203
+#: templates/settings/template-mrkv-review-reminder-settings.php:217
 msgid "Desktop CSS"
 msgstr "CSS pre počítač"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:258
+#: templates/settings/template-mrkv-review-reminder-settings.php:272
 msgid "E-mail"
 msgstr "E-mail"
 
@@ -56,7 +60,7 @@ msgstr "E-mail"
 msgid "Email configurations"
 msgstr "Konfigurácia e-mailu"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:181
+#: templates/settings/template-mrkv-review-reminder-settings.php:195
 msgid "Email header"
 msgstr "Hlavička e-mailu"
 
@@ -64,28 +68,32 @@ msgstr "Hlavička e-mailu"
 msgid "Email subject"
 msgstr "Predmet e-mailu"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:189
+#: templates/settings/template-mrkv-review-reminder-settings.php:203
 msgid "Email text"
 msgstr "Text e-mailu"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:225
+#: templates/settings/template-mrkv-review-reminder-settings.php:239
 msgid "Enable log to order note"
 msgstr "Povoliť záznam do poznámky k objednávke"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:173
+#: templates/settings/template-mrkv-review-reminder-settings.php:175
 msgid "Enter email..."
 msgstr "Zadajte e-mail..."
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:181
+#: templates/settings/template-mrkv-review-reminder-settings.php:195
 msgid "Enter header..."
 msgstr "Zadajte hlavičku..."
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:203
-#: templates/settings/template-mrkv-review-reminder-settings.php:213
+#: templates/settings/template-mrkv-review-reminder-settings.php:185
+msgid "Enter text..."
+msgstr "Zadajte text.."
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:217
+#: templates/settings/template-mrkv-review-reminder-settings.php:227
 msgid "Enter the css..."
 msgstr "Zadajte CSS..."
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:189
+#: templates/settings/template-mrkv-review-reminder-settings.php:203
 msgid "Enter the email..."
 msgstr "Zadajte e-mail..."
 
@@ -105,7 +113,11 @@ msgstr "Globálne"
 msgid "https://morkva.co.ua/product-category/plugins/"
 msgstr "https://morkva.co.ua/product-category/plugins/"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:213
+#: classes/reminder/mrkv-review-reminder-sender.php:211
+msgid "Leave review"
+msgstr "Zanechať recenziu"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:227
 msgid "Mobile CSS"
 msgstr "CSS pre mobilné zariadenia"
 
@@ -125,17 +137,17 @@ msgstr "Morkva Review Reminder PRO"
 msgid "MRKV Review Reminder"
 msgstr "MRKV Pripomenutie recenzie"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:257
+#: templates/settings/template-mrkv-review-reminder-settings.php:271
 #| msgid "Need help or customization?"
 msgid "Need help or customisation?"
 msgstr "Potrebujete pomoc alebo prispôsobenie?"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:201
-#: templates/settings/template-mrkv-review-reminder-settings.php:211
+#: templates/settings/template-mrkv-review-reminder-settings.php:215
+#: templates/settings/template-mrkv-review-reminder-settings.php:225
 msgid "Plain only css"
 msgstr "Iba jednoduché CSS"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:187
+#: templates/settings/template-mrkv-review-reminder-settings.php:201
 msgid "Plain text, no html"
 msgstr "Čistý text, bez HTML"
 
@@ -151,7 +163,7 @@ msgstr "Interval pripomenutia, dni"
 msgid "Remove reminder"
 msgstr "Odstrániť pripomenutie"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:173
+#: templates/settings/template-mrkv-review-reminder-settings.php:175
 msgid "Reply-to (separated by comma)"
 msgstr "Odpoveď na (oddelené čiarkou)"
 
@@ -168,7 +180,7 @@ msgstr "Recenzovať nedávno zakúpené produkty"
 msgid "Review Reminder"
 msgstr "Pripomenutie recenzie"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:248
+#: templates/settings/template-mrkv-review-reminder-settings.php:262
 msgid "Save"
 msgstr "Uložiť"
 
@@ -177,11 +189,11 @@ msgstr "Uložiť"
 msgid "Scheduled on:"
 msgstr "Naplánované na:"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:238
+#: templates/settings/template-mrkv-review-reminder-settings.php:252
 msgid "Send"
 msgstr "Odoslať"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:231
+#: templates/settings/template-mrkv-review-reminder-settings.php:245
 msgid ""
 "Send a test email to the specified email. The product will be taken the last "
 "one published"
@@ -201,7 +213,7 @@ msgstr "Odoslať teraz"
 msgid "Sender name"
 msgstr "Meno odosielateľa"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:242
+#: templates/settings/template-mrkv-review-reminder-settings.php:256
 msgid "Sent"
 msgstr "Odoslané"
 
@@ -213,17 +225,21 @@ msgstr "Nastavenia"
 msgid "Shortcode firstname: [mrkv-firstname]"
 msgstr "Shortcode krstné meno: [mrkv-firstname]"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:256
+#: templates/settings/template-mrkv-review-reminder-settings.php:270
 msgid "Support"
 msgstr "Podpora"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:234
+#: templates/settings/template-mrkv-review-reminder-settings.php:248
 msgid "Test Email address"
 msgstr "Testovacia e-mailová adresa"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:229
+#: templates/settings/template-mrkv-review-reminder-settings.php:243
 msgid "Test letter"
 msgstr "Testovací list"
+
+#: mrkv-review-reminder-pro.php:80
+msgid "View details"
+msgstr "Zobraziť detaily"
 
 #. Description of the plugin
 msgid "We send simple emails to remind you of your review"

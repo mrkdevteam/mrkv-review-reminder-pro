@@ -165,13 +165,27 @@
 										</div>
 									</div>
 								</div>
-								<div class="admin_ua_ship_morkva_settings_line">
-									<?php 
-										$data = isset($mrkv_review_reminder['email']['reply']) ? $mrkv_review_reminder['email']['reply'] : '';
-										$description = '';
+								<div class="admin_ua_ship_morkva_settings_row">
+									<div class="col-mrkv-5">
+										<div class="admin_ua_ship_morkva_settings_line">
+											<?php 
+												$data = isset($mrkv_review_reminder['email']['reply']) ? $mrkv_review_reminder['email']['reply'] : '';
+												$description = '';
 
-										echo wp_kses($field_generator->get_input_text(__('Reply-to (separated by comma)', 'mrkv-review-reminder-pro'), 'mrkv_review_reminder[email][reply]', $data, 'mrkv_review_reminder_email_reply' , '', __('Enter email...', 'mrkv-review-reminder-pro'), $description), $allowed_tags);
-									?>
+												echo wp_kses($field_generator->get_input_text(__('Reply-to (separated by comma)', 'mrkv-review-reminder-pro'), 'mrkv_review_reminder[email][reply]', $data, 'mrkv_review_reminder_email_reply' , '', __('Enter email...', 'mrkv-review-reminder-pro'), $description), $allowed_tags);
+											?>
+										</div>
+									</div>
+									<div class="col-mrkv-5">
+										<div class="admin_ua_ship_morkva_settings_line">
+											<?php 
+												$data = isset($mrkv_review_reminder['email']['btn_text']) ? $mrkv_review_reminder['email']['btn_text'] : '';
+												$description = '';
+
+												echo wp_kses($field_generator->get_input_text(__('Button text (Default: Leave review)', 'mrkv-review-reminder-pro'), 'mrkv_review_reminder[email][btn_text]', $data, 'mrkv_review_reminder_email_btn_text' , '', __('Enter text...', 'mrkv-review-reminder-pro'), $description), $allowed_tags);
+											?>
+										</div>
+									</div>
 								</div>
 								<div class="admin_ua_ship_morkva_settings_line">
 									<?php 
