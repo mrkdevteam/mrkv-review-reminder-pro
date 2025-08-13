@@ -4,15 +4,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: nb_NO\n"
 "Language-Team: Norwegian (Bokmål)\n"
-"PO-Revision-Date: 2025-07-31 06:40+0000\n"
+"PO-Revision-Date: 2025-08-08 09:23+0000\n"
 "X-Generator: Loco https://localise.biz/"
 
-#: classes/woocommerce/mrkv-review-reminder-woo-order.php:178
-#: classes/woocommerce/mrkv-review-reminder-woo-order.php:212
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:201
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:235
 msgid "Actions"
 msgstr "Handlinger"
 
-#: classes/woocommerce/mrkv-review-reminder-woo-order.php:155
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:178
 #: classes/woocommerce/mrkv-review-reminder-woo-orders.php:88
 #: classes/reminder/mrkv-review-reminder-sender.php:101
 #: classes/settings/admin/mrkv-review-reminder-admin-assets.php:36
@@ -27,16 +27,16 @@ msgstr "Grunnleggende"
 msgid "Basic settings"
 msgstr "Grunnleggende innstillinger"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:185
+#: templates/settings/template-mrkv-review-reminder-settings.php:198
 msgid "Button text (Default: Leave review)"
 msgstr "Knappetekst (Standard: Legg igjen anmeldelse)"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:144
+#: templates/settings/template-mrkv-review-reminder-settings.php:157
 msgid "Create a message that will be sent"
 msgstr "Opprett en melding som skal sendes"
 
 #: templates/settings/template-mrkv-review-reminder-settings.php:34
-#: templates/settings/template-mrkv-review-reminder-settings.php:208
+#: templates/settings/template-mrkv-review-reminder-settings.php:221
 msgid "Customization"
 msgstr "Tilpasning"
 
@@ -44,64 +44,64 @@ msgstr "Tilpasning"
 msgid "Debug"
 msgstr "Feilsøking"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:234
+#: templates/settings/template-mrkv-review-reminder-settings.php:247
 msgid "Debug Settings"
 msgstr "Feilsøkingsinnstillinger"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:217
+#: templates/settings/template-mrkv-review-reminder-settings.php:230
 msgid "Desktop CSS"
 msgstr "CSS for skrivebord"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:272
+#: templates/settings/template-mrkv-review-reminder-settings.php:285
 msgid "E-mail"
 msgstr "E-post"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:142
+#: templates/settings/template-mrkv-review-reminder-settings.php:155
 msgid "Email configurations"
 msgstr "E-postkonfigurasjoner"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:195
+#: templates/settings/template-mrkv-review-reminder-settings.php:208
 msgid "Email header"
 msgstr "E-posthode"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:153
+#: templates/settings/template-mrkv-review-reminder-settings.php:166
 msgid "Email subject"
 msgstr "E-postemne"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:203
+#: templates/settings/template-mrkv-review-reminder-settings.php:216
 msgid "Email text"
 msgstr "E-posttekst"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:239
+#: templates/settings/template-mrkv-review-reminder-settings.php:252
 msgid "Enable log to order note"
 msgstr "Aktiver logg til ordremerknad"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:175
+#: templates/settings/template-mrkv-review-reminder-settings.php:188
 msgid "Enter email..."
 msgstr "Skriv inn e-post..."
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:195
+#: templates/settings/template-mrkv-review-reminder-settings.php:208
 msgid "Enter header..."
 msgstr "Skriv inn hode..."
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:185
+#: templates/settings/template-mrkv-review-reminder-settings.php:198
 msgid "Enter text..."
 msgstr "Skriv inn tekst..."
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:217
-#: templates/settings/template-mrkv-review-reminder-settings.php:227
+#: templates/settings/template-mrkv-review-reminder-settings.php:230
+#: templates/settings/template-mrkv-review-reminder-settings.php:240
 msgid "Enter the css..."
 msgstr "Skriv inn CSS..."
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:203
+#: templates/settings/template-mrkv-review-reminder-settings.php:216
 msgid "Enter the email..."
 msgstr "Skriv inn e-postadressen..."
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:163
+#: templates/settings/template-mrkv-review-reminder-settings.php:176
 msgid "Enter the sender..."
 msgstr "Skriv inn avsenderen..."
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:153
+#: templates/settings/template-mrkv-review-reminder-settings.php:166
 msgid "Enter the subject..."
 msgstr "Skriv inn emnet..."
 
@@ -117,7 +117,7 @@ msgstr "https://morkva.co.ua/product-category/plugins/"
 msgid "Leave review"
 msgstr "Legg igjen anmeldelse"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:227
+#: templates/settings/template-mrkv-review-reminder-settings.php:240
 msgid "Mobile CSS"
 msgstr "CSS for mobil"
 
@@ -137,17 +137,21 @@ msgstr "Morkva Review Reminder PRO"
 msgid "MRKV Review Reminder"
 msgstr "MRKV Anmeldelsespåminnelse"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:271
+#: templates/settings/template-mrkv-review-reminder-settings.php:284
 #| msgid "Need help or customization?"
 msgid "Need help or customisation?"
 msgstr "Trenger du hjelp eller tilpasning?"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:215
-#: templates/settings/template-mrkv-review-reminder-settings.php:225
+#: templates/settings/template-mrkv-review-reminder-settings.php:148
+msgid "Order status filter"
+msgstr "Ordrestatusfilter"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:228
+#: templates/settings/template-mrkv-review-reminder-settings.php:238
 msgid "Plain only css"
 msgstr "Kun enkel CSS"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:201
+#: templates/settings/template-mrkv-review-reminder-settings.php:214
 msgid "Plain text, no html"
 msgstr "Ren tekst, ingen HTML"
 
@@ -159,15 +163,15 @@ msgstr "Produktkategorier"
 msgid "Reminder interval, days"
 msgstr "Påminnelsesintervall, dager"
 
-#: classes/woocommerce/mrkv-review-reminder-woo-order.php:204
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:227
 msgid "Remove reminder"
 msgstr "Fjern påminnelse"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:175
+#: templates/settings/template-mrkv-review-reminder-settings.php:188
 msgid "Reply-to (separated by comma)"
 msgstr "Svar til (adskilt med komma)"
 
-#: classes/woocommerce/mrkv-review-reminder-woo-order.php:182
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:205
 msgid "Resend reminder"
 msgstr "Send påminnelse på nytt"
 
@@ -180,20 +184,20 @@ msgstr "Anmeld nylig kjøpte produkter"
 msgid "Review Reminder"
 msgstr "Anmeldelsespåminnelse"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:262
+#: templates/settings/template-mrkv-review-reminder-settings.php:275
 msgid "Save"
 msgstr "Lagre"
 
-#: classes/woocommerce/mrkv-review-reminder-woo-order.php:194
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:217
 #: classes/woocommerce/mrkv-review-reminder-woo-orders.php:100
 msgid "Scheduled on:"
 msgstr "Planlagt til:"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:252
+#: templates/settings/template-mrkv-review-reminder-settings.php:265
 msgid "Send"
 msgstr "Send"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:245
+#: templates/settings/template-mrkv-review-reminder-settings.php:258
 msgid ""
 "Send a test email to the specified email. The product will be taken the last "
 "one published"
@@ -201,19 +205,19 @@ msgstr ""
 "Send en test-e-post til den angitte e-postadressen. Produktet vil være det "
 "sist publiserte"
 
-#: classes/woocommerce/mrkv-review-reminder-woo-order.php:200
-#: classes/woocommerce/mrkv-review-reminder-woo-order.php:216
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:223
+#: classes/woocommerce/mrkv-review-reminder-woo-order.php:239
 #: classes/woocommerce/mrkv-review-reminder-woo-orders.php:104
 #: classes/woocommerce/mrkv-review-reminder-woo-orders.php:118
 #: classes/reminder/mrkv-review-reminder-sender.php:42
 msgid "Send now"
 msgstr "Send nå"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:163
+#: templates/settings/template-mrkv-review-reminder-settings.php:176
 msgid "Sender name"
 msgstr "Avsenders navn"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:256
+#: templates/settings/template-mrkv-review-reminder-settings.php:269
 msgid "Sent"
 msgstr "Sendt"
 
@@ -221,19 +225,19 @@ msgstr "Sendt"
 msgid "Settings"
 msgstr "Innstillinger"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:151
+#: templates/settings/template-mrkv-review-reminder-settings.php:164
 msgid "Shortcode firstname: [mrkv-firstname]"
 msgstr "Kortkode fornavn: [mrkv-firstname]"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:270
+#: templates/settings/template-mrkv-review-reminder-settings.php:283
 msgid "Support"
 msgstr "Støtte"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:248
+#: templates/settings/template-mrkv-review-reminder-settings.php:261
 msgid "Test Email address"
 msgstr "Test e-postadresse"
 
-#: templates/settings/template-mrkv-review-reminder-settings.php:243
+#: templates/settings/template-mrkv-review-reminder-settings.php:256
 msgid "Test letter"
 msgstr "Testbrev"
 
@@ -244,6 +248,10 @@ msgstr "Se detaljer"
 #. Description of the plugin
 msgid "We send simple emails to remind you of your review"
 msgstr "Vi sender enkle e-poster for å minne deg på din anmeldelse"
+
+#: templates/settings/template-mrkv-review-reminder-settings.php:148
+msgid "When selected, only orders with choosen statuses will be processed"
+msgstr "Når valgt, vil kun bestillinger med valgte statuser bli behandlet"
 
 #: templates/settings/template-mrkv-review-reminder-settings.php:137
 msgid ""

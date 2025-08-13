@@ -41,7 +41,7 @@ if (!class_exists('MRKV_REVIEW_REMINDER_WOO_ORDER'))
 				$mrkv_review_reminder = get_option('mrkv_review_reminder');
 
 				# Check if products exist settings categories
-				if($this->is_product_cat_exist($order, $mrkv_review_reminder))
+				if($this->is_product_cat_exist($order, $mrkv_review_reminder) && $this->is_order_status_exist($order, $mrkv_review_reminder))
 				{
 					# Get current date
 					$current_date = new DateTime();
@@ -83,6 +83,29 @@ if (!class_exists('MRKV_REVIEW_REMINDER_WOO_ORDER'))
 
 	        # Add metabox
         	add_meta_box('mrkv_review_reminder_data_box', __('Morkva Review Reminder', 'mrkv-review-reminder-pro'), array( $this, 'mrkv_review_reminder_add_plugin_meta_box' ), $screen, 'side', 'core');
+		}
+
+		/**
+		 * Check if products exist settings categories
+		 * @param object Order
+		 * @return boolean Rool
+		 * */
+		private function is_order_status_exist($order, $mrkv_review_reminder)
+		{
+			if(isset($mrkv_review_reminder['status_filter']) && !empty($mrkv_review_reminder['status_filter']))
+			{
+				if ( in_array( 'wc-' . $order->get_status(), $mrkv_review_reminder['status_filter'], true ) ) 
+				{
+					# Return answer
+					return true;
+				}
+
+				# Return answer
+				return false;
+			}
+
+			# Return answer
+			return true;
 		}
 
 		/**

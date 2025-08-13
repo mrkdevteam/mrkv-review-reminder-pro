@@ -138,6 +138,19 @@
 										?>
 									</div>
 								</div>
+								<div class="admin_ua_ship_morkva_settings_row">
+									<div class="col-mrkv-5">
+										<div class="admin_ua_ship_morkva_settings_line">
+											<?php 
+												$data = isset($mrkv_review_reminder['status_filter']) ? $mrkv_review_reminder['status_filter'] : '';
+												$order_statuses = wc_get_order_statuses();
+
+												echo wp_kses($field_generator->get_select_multiple(__('Order status filter', 'mrkv-review-reminder-pro'), 'mrkv_review_reminder[status_filter][]', $order_statuses, $data, 'mrkv_review_reminder_status_filter' , '', __('When selected, only orders with choosen statuses will be processed', 'mrkv-review-reminder-pro'),  'multiple'), $allowed_tags);
+											?>
+										</div>
+									</div>
+									<div class="col-mrkv-5"></div>
+								</div>
 								<h3>
 									<img src="<?php echo esc_url(MRKV_REVIEW_REMINDER_IMG_URL . '/global/mention-square-icon.svg'); ?>" alt="Email" title="Email"><?php echo esc_html__('Email configurations', 'mrkv-review-reminder-pro'); ?>
 								</h3>
